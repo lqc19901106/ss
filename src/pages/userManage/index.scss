@@ -1,0 +1,11 @@
+.user-list-table {
+  
+  .ant-table-title {
+    display: flex;
+    justify-content: flex-end;
+  };
+
+  .ant-table-body {
+    height: calc(100vh - 350px) !important;
+  }
+}

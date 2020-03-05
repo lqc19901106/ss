@@ -1,0 +1,19 @@
+.search-from{
+    display: flex;
+    margin: 12px;
+    flex-wrap: wrap;
+    .form-item{
+        display: flex;
+        margin: 4px;
+        label{
+            width: 80px;
+            line-height: 32px;
+        }
+    }
+    .search-field{
+        width: 180px;
+        &.datetime{
+            width: 280px;
+        }
+    }
+}

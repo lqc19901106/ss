@@ -1,0 +1,6 @@
+const types = {
+  SET_CURRENT_HOSPITAI: 'SET_CURRENT_HOSPITAI',
+  CLEAR_HOSPITAL_INFO: 'CLEAR_HOSPITAL_INFO',
+};
+
+export default types;

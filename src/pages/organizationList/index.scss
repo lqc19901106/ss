@@ -1,0 +1,44 @@
+.organization-list{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .list-search{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .list-body{
+    flex: 1;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: auto;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 10px;
+    left: 0;
+
+    .organization{
+      padding: 10px 30px;
+      border: 1px solid #1890ff;
+      height: 40px;
+      margin-right: 15px;
+      margin-bottom: 18px;
+      flex-shrink: 0;
+      border-radius: 20px;
+    }
+
+    button{
+      border: none;
+      outline: none;
+      background-color: #fff
+    }
+  }
+}
