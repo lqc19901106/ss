@@ -92,7 +92,7 @@
   "dependencies": {
     "@hot-loader/react-dom": "^16.11.0",
     "antd": "^3.26.11",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "connected-react-router": "^6.7.0",
     "core-js": "^3.6.4",
     "history": "^4.10.1",
